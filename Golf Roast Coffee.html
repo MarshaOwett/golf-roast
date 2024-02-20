@@ -1,4 +1,4 @@
-<Golf Roast Coffee>
+<Golf-Roast-Coffee>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <header>
+    <<header>
         <div class="logo-container">
             <img src="media/gulp-logo-light.png" alt="Gulp Roast Logo" class="logo">
         </div>
@@ -31,7 +31,11 @@
                 <button>Contact Us</button>
             </div>
             <div class="card">
-                <img src="media/gulp-pouring-coffee-vertical.jpeg" alt="Pour-over Coffee">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="media/gulp-pouring-coffee-horizontal.jpeg">
+                    <source media="(min-width: 768px)" srcset="media/gulp-pouring-coffee-vertical.jpeg">
+                    <img src="media/gulp-pouring-coffee-small-horizontal.jpeg" alt="Pour-over Coffee">
+                </picture>
                 <div class="card-content">
                     <p>Our pour-over coffee is known for its freshness and amazing taste.</p>
                 </div>
